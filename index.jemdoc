@@ -1,0 +1,23 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+==Jixun Liu
+
+~~~
+{}{img_left}{photos/Pict.jpg}{alt text}{131}{160}
+UG,\n [https://sme.sustech.edu.cn/en/ School Of Microelectronics], \n[https://www.sustech.edu.cn/en/ Southern University of Science and Technology (SUSTech)]\n
+Shen zhen, China \n 
+Phone: \+86 158 7916 5394 \n
+E-mail: /liujx2019/@mail.sustech.edu.cn
+~~~
+
+== About me
+I am studying for a B.Eng degree in electronics engineering from Southern University of Science and Technology which starts from 2019, under the supervision of [https://faculty.sustech.edu.cn/zhancc/en/ Prof. Chenchang Zhan]. 
+
+== Research
+My research interests include 
+- Switching Power Supply 
+- RF Microelectronics Design
+- Frequency & Voltage & Current References
+- Energy Harvesting
+- Machine Learning
+\n
+[research.html Find out more].

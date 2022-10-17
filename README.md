@@ -1,3 +1,3 @@
 # newfruitman.github.io
-
-The academic page of Jixun Liu
+*Welcome*
+This is the academic page of Jixun Liu

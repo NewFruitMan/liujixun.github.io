@@ -1,27 +1,16 @@
+/* Default css file for jemdoc. */
+
 table#tlayout {
-    border: none;
-    border-collapse: separate;
-    background: white;
-}
-html {
-  background-color: #eeeeee;
+	border: none;
+	border-collapse: separate;
+	background: white;
 }
 
 body {
-  font-family: Georgia, serif;
-  color: #000;
-  background-color: #ffffff;
-  text-align:left; /* for IE */
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left:  50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 50px;
-  max-width: 960px;
-  min-width: 600px;
+	background: white;
+	font-family: Georgia, serif;
+	padding-bottom: 8px;
+	margin: 0;
 }
 
 #layout-menu {
@@ -33,23 +22,25 @@ body {
 	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
+	text-align: left;
+	vertical-align: top;
 }
 
 #layout-menu td {
 	background: #f4f4f4;
-    vertical-align: top;
+	vertical-align: top;
 }
 
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
-    border: none;
-    background: white;
-    text-align: left;
-    vertical-align: top;
+	border: none;
+	background: white;
+	text-align: left;
+	vertical-align: top;
+	min-width: 800px;
+	width: 800px;
 }
 
 #layout-menu a {
@@ -57,9 +48,8 @@ body {
 	margin-left: 0.5em;
 }
 
-
 tt {
-    background: #ffffdd;
+	background: #ffffdd;
 }
 
 pre, tt {
@@ -148,7 +138,7 @@ h2 {
 }
 
 h2 + h3 {
-    padding-top: 0.2em;
+	padding-top: 0.2em;
 }
 
 h3 {
@@ -172,8 +162,8 @@ div#footer {
 	font-size: small;
 	border-top: 1px solid #c0c0c0;
 	padding-top: 0.1em;
-	margin-top: 2.0em;
-	color: #CD4F39;
+	margin-top: 4.0em;
+	color: #c0c0c0;
 }
 
 div#footer a {
@@ -181,7 +171,7 @@ div#footer a {
 }
 
 div#footer-text {
-	float: right;
+	float: left;
 	padding-bottom: 8px;
 }
 
@@ -309,7 +299,10 @@ span.comment, span.comment > *, span.string, span.string > * {
 }
 
 @media print {
-	#layout-menu { display: none; }
+	#layout-menu {
+		display: none;
+	}
+
 }
 
 #fwtitle {
@@ -348,32 +341,32 @@ img.eqwl {
 }
 
 table {
-    border: 2px solid black;
-    border-collapse: collapse;
+	border: 2px solid black;
+	border-collapse: collapse;
 }
 
 td {
-    padding: 2px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    text-align: center;
-    border: 1px solid gray;
+	padding: 2px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-align: center;
+	border: 1px solid gray;
 }
 
 table + table {
-    margin-top: 1em;
+	margin-top: 1em;
 }
 
 tr.heading {
-    font-weight: bold;
-    border-bottom: 2px solid black;
+	font-weight: bold;
+	border-bottom: 2px solid black;
 }
 
 img {
-    border: none;
+	border: none;
 }
 
 table.imgtable, table.imgtable td {
-    border: none;
-    text-align: left;
+	border: none;
+	text-align: left;
 }

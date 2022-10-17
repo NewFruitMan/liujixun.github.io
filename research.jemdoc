@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{research.html} 
+
+== RC Relaxation Oscillator
+\n
+
+*A 2M-Hz RC Relaxation Oscillator Based on Self-Regulated Voltage Reference*
+~~~
+{}{img_left}{photos/Osci.jpg}{alt text}{225}{125}
+As the Crystal Oscillator is not suitable for VLSI circuits nowadays due to its size, the cheaper opportunity is to design RC oscillator. In this research I design the RC Relaxation Oscillator with the help of my team members.  
+~~~
+
+== Voltage & Current References
+\n
+
+*A Reference System Used For Multiple Applications*
+~~~
+{}{img_left}{photos/RefSys.jpg}{alt text}{125}{120}
+The system of voltage and current references which can be adjust according to digital input may prove useful in IOT applications. In this research, I design the layout of the circuit and another graduate schoolmate accounts for the schematic idea. The circuit has been taken for a tape-out.
+~~~
